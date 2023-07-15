@@ -1,0 +1,143 @@
+html, body{
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(255,219,158,1) 17%, rgba(246,185,64,1) 100%);
+}
+
+h1 {
+    text-align: center;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    font-size: 80px;
+}
+
+.searchbox {
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+
+}
+.button{
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+#google{
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(5,184,255,1) 19%, rgba(255,0,0,1) 44%, rgba(247,255,0,1) 74%, rgba(63,255,58,1) 98%);
+}
+
+#youtube{
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(255,161,173,1) 63%, rgba(218,8,8,1) 100%, rgba(235,25,38,1) 100%);
+}
+
+#bing{
+    background: rgb(255,255,255);
+background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 0%, rgba(25,34,235,1) 88%, rgba(10,47,221,1) 100%);
+}
+
+#bard{
+    background: rgb(255,255,255);
+background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 13%, rgba(235,25,25,1) 50%, rgba(10,118,221,1) 100%);
+}
+
+#chatgpt{
+    background: rgb(255,255,255);
+background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(22,255,15,1) 98%);
+}
+#wikipedia{
+    background: rgb(255,255,255);
+
+}
+
+#headinggoogle{
+    text-align: center;
+    text-shadow: 0 0 10px rgba(253, 241, 13, 0.968);
+    font-size: 50px;
+
+}
+#headingyoutube{
+    text-align: center;
+    text-shadow: 0 0 10px rgba(248, 17, 17, 0.968);
+    font-size: 50px;
+
+}
+#headingbing{
+    text-align: center;
+    text-shadow: 0 0 10px rgba(125, 188, 255, 0.968);
+    font-size: 50px;
+
+}
+#headingbard{
+    text-align: center;
+    text-shadow: 0 0 10px rgba(240, 181, 122, 0.968);
+    font-size:50px;
+
+}
+#headingchatgpt{
+    text-align: center;
+    text-shadow: 0 0 10px rgba(80, 255, 45, 0.968);
+    font-size: 50px;
+
+}
+#headingwikipedia{
+    text-align: center;
+    text-shadow: 0 0 10px rgba(255, 255, 252, 0.968);
+    font-size: 50px;
+
+}
+
+#about{
+    font-size: 30px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    background-color: aqua;
+
+}
+input[type="text"]{
+    width: 300px; 
+    height: 40px; 
+    font-size: 18px; 
+}
+
+
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  
+  .searchbox {
+    width: 300px;
+    height: 40px;
+    font-size: 18px;
+  }
+  
+  .button {
+    width: 40px;
+    height: 40px;
+    font-size: 18px;
+  }
+  
+  
+  label {
+    font-size: 18px;
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  
+  @media screen and (max-width: 600px) {
+    .searchbox {
+      width: 80%;
+    }
+  
+    .button {
+      width: 30%;
+    }
+  
+    label {
+      font-size: 16px;
+    }
+  }
+  
